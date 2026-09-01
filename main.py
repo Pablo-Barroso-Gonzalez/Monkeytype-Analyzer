@@ -3,8 +3,9 @@ import pandas as pd
 df = pd.read_csv("data/results.csv")
 
 wpm_media =df["wpm"].mean()
-print(f"La wpm media general es {wpm_media:.2f}.")
-
+acc_media = df["acc"].mean()
+best_value = 0
+print(f"La wpm media general es {wpm_media:.2f} con una precision del {acc_media:.2f}% de media..")
 
 
 #primeras_filas = df.head()
