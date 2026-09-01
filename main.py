@@ -4,9 +4,14 @@ df = pd.read_csv("data/results.csv")
 
 wpm_media =df["wpm"].mean()
 acc_media = df["acc"].mean()
-best_value = 0
+best_wpm = df["wpm"].max()
 print(f"La wpm media general es {wpm_media:.2f} con una precision del {acc_media:.2f}% de media..")
+print(f"Tu wpm mas alta registrada es de {best_wpm} wpm.")
 
+#for valor in df["wpm"]:
+#    if valor > best_value:
+#        best_value = valor
+#print(f"El valor mas alto de wpm que has logrado es {best_value} wpm.")
 
 #primeras_filas = df.head()
 #ultimas_filas = df.tail()
