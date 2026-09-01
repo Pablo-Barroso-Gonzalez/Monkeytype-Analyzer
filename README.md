@@ -1,5 +1,5 @@
 # Monkeytype-Analyzer
 
-Primer proyecto "serio" despues de acabar un curso de Python.
+Primer proyecto "serio" después de acabar un curso de Python.
 
-Este repo lo dedicare a desarollar un proyecto con los datos extraidos de [monkeytype](https://monkeytype.com/) a analizarlos y hacer estadistica.
+Este repo lo dedicaré a desarrollar un proyecto con los datos extraídos de [monkeytype](https://monkeytype.com/) para analizarlos y hacer estadísticas.
